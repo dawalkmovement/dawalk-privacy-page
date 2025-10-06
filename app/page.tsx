@@ -1,4 +1,4 @@
-'use client';
+"use client";
 //import Image from "next/image";
 import Head from "next/head";
 
@@ -30,22 +30,30 @@ export default function Home() {
         <h2 className="flex flex-col justify-center items-center text-lg font-bold mb-2 text-green-700">
           GAME DEVELOPMENT AGREEMENT
         </h2>
-        <p className="text-gray-500 mb-6 text-sm">Last Updated: {lastUpdated}  </p>
+        <p className="text-gray-500 mb-6 text-sm">
+          Last Updated: {lastUpdated}{" "}
+        </p>
 
         <div className="space-y-6 text-[0.95rem] sm:text-base leading-relaxed">
           <div>
-            <h3 className="font-semibold text-green-700 mb-1">1. Introduction</h3>
+            <h3 className="font-semibold text-green-700 mb-1">
+              1. Introduction
+            </h3>
             <p>
-              Welcome to <strong>Rooted</strong> ("the Game"), a Bible-based quiz
-              game designed for children aged 8 to 16. The Game is operated by{" "}
-              <strong>DaWalk Movement</strong> ("Company," "we," "our," or "us").
-              By accessing or playing the Game, you agree to abide by these Terms
-              and Conditions. If you do not agree, please do not use the Game.
+              Welcome to <strong>Rooted</strong> (&ldquo;the Game&rdquo;), a
+              Bible-based quiz game designed for children aged 8 to 16. The Game
+              is operated by <strong>DaWalk Movement</strong>{" "}
+              (&ldquo;Company,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or
+              &ldquo;us&rdquo;). By accessing or playing the Game, you agree to
+              abide by these Terms and Conditions. If you do not agree, please
+              do not use the Game.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold text-green-700 mb-1">2. Eligibility</h3>
+            <h3 className="font-semibold text-green-700 mb-1">
+              2. Eligibility
+            </h3>
             <p>
               The Game is intended for users between 8 to 16 years old. If you
               are under 13, parental or guardian consent is required. Parents or
@@ -55,7 +63,9 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-green-700 mb-1">3. User Accounts</h3>
+            <h3 className="font-semibold text-green-700 mb-1">
+              3. User Accounts
+            </h3>
             <p>
               To play the Game, users may be required to create an account. You
               must provide accurate and truthful information when registering.
@@ -83,13 +93,15 @@ export default function Home() {
             <p>
               All content in the Game, including text, graphics, design, and
               questions, is the property of <strong>DaWalk Movement</strong> and
-              protected under copyright laws. Users may not reproduce, distribute,
-              or modify any part without consent.
+              protected under copyright laws. Users may not reproduce,
+              distribute, or modify any part without consent.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold text-green-700 mb-1">6. Privacy Policy</h3>
+            <h3 className="font-semibold text-green-700 mb-1">
+              6. Privacy Policy
+            </h3>
             <p>
               We collect limited personal information to improve gameplay. We do
               not sell, share, or disclose personal data except as required by
@@ -102,17 +114,19 @@ export default function Home() {
               7. Parental Responsibility
             </h3>
             <p>
-              Parents or guardians should monitor their child’s activity. We
-              encourage responsible gaming and discourage excessive play.
+              Parents or guardians should monitor their child&rsquo;s activity.
+              We encourage responsible gaming and discourage excessive play.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold text-green-700 mb-1">8. Disclaimers</h3>
+            <h3 className="font-semibold text-green-700 mb-1">
+              8. Disclaimers
+            </h3>
             <p>
-              The Game is provided “as is,” with no guarantee of uninterrupted or
-              error-free use. We are not responsible for technical failures or
-              data loss.
+              The Game is provided &ldquo;as is,&rdquo; with no guarantee of
+              uninterrupted or error-free use. We are not responsible for
+              technical failures or data loss.
             </p>
           </div>
 
@@ -121,8 +135,8 @@ export default function Home() {
               9. Limitation of Liability
             </h3>
             <p>
-              <strong>DaWalk Movement</strong> shall not be liable for indirect or
-              consequential damages from Game use.
+              <strong>DaWalk Movement</strong> shall not be liable for indirect
+              or consequential damages from Game use.
             </p>
           </div>
 
@@ -131,8 +145,8 @@ export default function Home() {
               10. Termination of Access
             </h3>
             <p>
-              We may suspend or terminate any account that violates these Terms or
-              engages in inappropriate behavior.
+              We may suspend or terminate any account that violates these Terms
+              or engages in inappropriate behavior.
             </p>
           </div>
 
