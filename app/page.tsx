@@ -10,7 +10,7 @@ export default function Home() {
   });
 
   return (
-    <main className="container mx-auto">
+    <main className="">
       <Head>
         <title>Rooted - Game Development Agreement</title>
       </Head>
