@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function SupportPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -290,12 +291,12 @@ export default function SupportPage() {
             </div>
             <p className="mt-6 text-gray-500">
               For full details, please review our{" "}
-              <a
+              <Link
                 href="/"
                 className="text-emerald-600 font-medium hover:underline"
               >
                 Privacy Policy
-              </a>
+              </Link>
               .
             </p>
           </div>
